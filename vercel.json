@@ -1,49 +1,33 @@
 {
     "version": 2,
-      "framework": null,
+    "framework": null,
     "functions": {
         "api/index.php": { "runtime": "vercel-php@0.7.4" }
     },
     "routes": [
-        {
-            "src": "/build/(.)",
-            "dest": "/public/build/"
-        },
-        {
-            "src": "/css/(.)",
-            "dest": "/public/css/"
-        },
-        {
-            "src": "/images/(.)",
-            "dest": "/public/images/"
-        },
-        {
-            "src": "/js/(.)",
-            "dest": "/public/js/"
-        },
-        {
-            "src": "/vendors/(.)",
-            "dest": "/public/vendors/"
-        },
+        { "src": "/build/(.*)", "dest": "/public/build/" },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
+    "public": true,
+    "buildCommand": "vite build",
+    "outputDirectory": "public",
     "env": {
-        "APP_KEY": "base64:At5RXJsJOMUQKLRJN6H82P+Sa5cAePnjG5llaEZ5CoU=",
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "",
-        
-        
+        "APP_URL": "https://yourproductionurl.com",
+        "APP_KEY": "base64:At5RXJsJOMUQKLRJN6H82P+Sa5cAePnjG5llaEZ5CoU=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
         "APP_ROUTES_CACHE": "/tmp/routes.php",
         "APP_SERVICES_CACHE": "/tmp/services.php",
         "VIEW_COMPILED_PATH": "/tmp",
- 
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie",
+        "SUPABASE_URL": "https://rribfvffhcaxlmvlnsjw.supabase.co",
+        "SUPABASE_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJyaWJmdmZmaGNheGxtdmxuc2p3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjIwNzE4NzgsImV4cCI6MjA3NzY0Nzg3OH0.lhdiKMQ4Y2509LXWw26RcqaaY6nvmMxnHlKp1T5Y9gw",
+        "SUPABASE_BUCKET": "larastore-bucket",
         "DATABASE_URL": "postgresql://postgres:[YOUR-PASSWORD]@db.lbnwvzicmyqnzcuyzkjp.supabase.co:5432/postgres"
     }
 }
