@@ -25,10 +25,7 @@
             "src": "/vendors/(.)",
             "dest": "/public/vendors/"
         },
-        {
-            "src": "/(.)",
-            "dest": "/api/index.php"
-        }
+        { "src": "/(.*)", "dest": "/api/index.php" }
     ],
     "env": {
         "APP_KEY": "base64:At5RXJsJOMUQKLRJN6H82P+Sa5cAePnjG5llaEZ5CoU=",
