@@ -25,9 +25,8 @@
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie",
-        "SUPABASE_URL": "https://rribfvffhcaxlmvlnsjw.supabase.co",
-        "SUPABASE_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJyaWJmdmZmaGNheGxtdmxuc2p3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjIwNzE4NzgsImV4cCI6MjA3NzY0Nzg3OH0.lhdiKMQ4Y2509LXWw26RcqaaY6nvmMxnHlKp1T5Y9gw",
-        "SUPABASE_BUCKET": "larastore-bucket",
+        "SUPABASE_URL": "https://lbnwvzicmyqnzcuyzkjp.supabase.co",
+        "SUPABASE_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxibnd2emljbXlxbnpjdXl6a2pwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTkyOTEzNjEsImV4cCI6MjA3NDg2NzM2MX0.jbcGg-OYbfURYVcJikLQ1YUE7JPJeIrxPcqpfW4hlUE",
         "DATABASE_URL": "postgresql://postgres:[EVR389kesyahfs]@db.lbnwvzicmyqnzcuyzkjp.supabase.co:5432/postgres"
     }
 }
