@@ -28,6 +28,6 @@
         "SUPABASE_URL": "https://rribfvffhcaxlmvlnsjw.supabase.co",
         "SUPABASE_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJyaWJmdmZmaGNheGxtdmxuc2p3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjIwNzE4NzgsImV4cCI6MjA3NzY0Nzg3OH0.lhdiKMQ4Y2509LXWw26RcqaaY6nvmMxnHlKp1T5Y9gw",
         "SUPABASE_BUCKET": "larastore-bucket",
-        "DATABASE_URL": "postgresql://postgres:[YOUR-PASSWORD]@db.lbnwvzicmyqnzcuyzkjp.supabase.co:5432/postgres"
+        "DATABASE_URL": "postgresql://postgres:[EVR389kesyahfs]@db.lbnwvzicmyqnzcuyzkjp.supabase.co:5432/postgres"
     }
 }
