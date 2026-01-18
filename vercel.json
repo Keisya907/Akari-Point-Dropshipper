@@ -28,6 +28,6 @@
         "SUPABASE_URL": "https://lbnwvzicmyqnzcuyzkjp.supabase.co",
         "SUPABASE_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxibnd2emljbXlxbnpjdXl6a2pwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTkyOTEzNjEsImV4cCI6MjA3NDg2NzM2MX0.jbcGg-OYbfURYVcJikLQ1YUE7JPJeIrxPcqpfW4hlUE",
         "SUPABASE_BUCKET": "Gambar",
-        "DATABASE_URL": "postgresql://postgres:EVR389kesyahfs@db.lbnwvzicmyqnzcuyzkjp.supabase.co:5432/postgres"
+        "DATABASE_URL": "postgresql://postgres:[EVR389kesyahfs]@db.lbnwvzicmyqnzcuyzkjp.supabase.co:5432/postgres"
     }
 }
